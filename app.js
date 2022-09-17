@@ -31,8 +31,7 @@ function checkGuess() {
                game = prompt('Incorrect input, please try again. Enter a number');
           }
      }
-     return game = +prompt(`Congratulations, you got it on the ${stepCounter}th try. Do you want to play again?`)
-
+     return game = +prompt(`Congratulations, you got it on the ${stepCounter}th try. If you want to play again =>ok/enter.`)
 }
 
 console.log(doRandom());
